@@ -5,11 +5,13 @@ import com.narendhar.JdbcDemoProject.model.Student;
 import com.narendhar.JdbcDemoProject.repository.StudentRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Component
+//@Component
+@Service
 public class StudentService {
     private StudentRepo repo;
 
